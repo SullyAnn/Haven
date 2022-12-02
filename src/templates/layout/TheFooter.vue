@@ -1,5 +1,5 @@
 <template>
-    <footer class="l-footer"></footer>
+    <footer class="l-footer"> The Haven - 2022 </footer>
 </template>
 
 <script>
@@ -16,5 +16,9 @@ export default defineComponent({
 .l-footer {
     height: 5rem;
     background-color: var(--color-black);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 </style>

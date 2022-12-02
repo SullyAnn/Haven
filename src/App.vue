@@ -11,6 +11,8 @@ import {
 } from "vue";
 
 import "@/assets/scss/global.scss";
+import "leaflet/dist/leaflet.css";
+
 
 import TheBase from "@/templates/layout/TheBase.vue";
 
